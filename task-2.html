@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Paws & Tails Pet Shop</title>
+    <style>
+      body {
+        background-color: lightyellow;
+        font-family: Arial;
+      }
+      h1 {
+        color: darkgreen;
+        font-size: 40px;
+        text-align: center;
+      }
+      .intro {
+        color: darkslategrey;
+        font-size: 18px;
+        text-align: center;
+      }
+      .petbox {
+        background-color: white;
+        border: 2px solid darkgreen;
+        border-radius: 12px;
+        padding: 20px;
+        margin: 20px;
+        text-align: center;
+      }
+      h2 {
+        color: darkblue;
+        font-size: 28px;
+      }
+      p {
+        color: black;
+        font-size: 17px;
+      }
+      .h3box1 {
+        color: orange;
+        font-size: 21px;
+      }
+      button {
+        background-color: darkgreen;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 8px;
+      }
+      .h3box2 {
+        color: purple;
+        font-size: 21px;
+      }
+      .h3box3 {
+        color: teal;
+        font-size: 21px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Paws & Tails Pet Shop</h1>
+    <p class="intro">Everything your furry friends need!</p>
+    <div class="petbox">
+      <h2>Dog supplies</h2>
+      <p>Find food, toys and accessories for your dog.</p>
+      <h3 class="h3box1">Dog Toys</h3>
+      <button onclick="dog()">Shop Now</button>
+    </div>
+    <div class="petbox">
+      <h2>Cat Supplies</h2>
+      <p>Discover food, beds and fun toys for your cat.</p>
+      <h3 class="h3box2">Cat Toys</h3>
+      <button onclick="cat()">Explore</button>
+    </div>
+    <div class="petbox">
+      <h2>Fish supplies</h2>
+      <p>Get everything you need to keep your aquarium happy and healthy.</p>
+      <h3 class="h3box3">Aquarium Care</h3>
+      <button onclick="fish()">View Products</button>
+    </div>
+    <script>
+      function dog() {
+        alert("Thankyou for visiting our dog section!");
+      }
+      function cat() {
+        alert("Welcome to our cat section!");
+      }
+      function fish() {
+        alert("Check out our aquarium supplies!");
+      }
+    </script>
+  </body>
+</html>
